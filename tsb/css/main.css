@@ -116,6 +116,12 @@ a:focus {
 	font-family: Open Sans Condensed;
 }
 
+ @media only screen and (max-width : 400px) { 
+    .about p {
+      font-size: 2em;
+    }
+  }
+
 
 /*formatting gallery*/
 
