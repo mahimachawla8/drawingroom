@@ -2,7 +2,7 @@ $(function () {
 
   var sections = $('section')
   , nav = $('nav')
-  , nav_height = nav.outerHeight() - 30;
+  , nav_height = nav.outerHeight() - 50;
 
   $(window).on('scroll', function () {
     var cur_pos = $(this).scrollTop();

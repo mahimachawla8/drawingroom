@@ -73,6 +73,15 @@ a:focus {
 }
 */
 
+/*formatting nav */
+
+.navbar {
+    position: fixed;
+    min-height: 50px;
+    width: 100%;
+    top: 0px;
+}
+
 /*formatting logo */
 
 #logo {
@@ -193,29 +202,29 @@ section {
 
 section#one {
 	background: white;
-  height: 800px;
+  height: 100vh;
 }
+
 
 section#two {
   background-image: url("../img/background.jpg");
-  opacity: 0.6;
-  height: 600px;
+   height: 100vh;
 }
 
 section#three {
   background: white;
-  height: 700px;
+   height: 100vh;
 }
 
 section#four {
    background: #ecf0f1;
-   height: 800px;
+    height: 100vh;
 }
 
-.shortheight {
+/*.shortheight {
   height: 900px;
 }
-
+*/
 
 
 
