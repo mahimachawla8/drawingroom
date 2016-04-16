@@ -94,14 +94,14 @@ a:focus {
 
 #tsb {
   width: 100%;
-  opacity: 1;
-  transition: all 1s ease;
+ /* opacity: 1;*/
+ /* transition: all 1s ease;*/
 }
 
-#tsb.fade {
+/*#tsb.fade {
   opacity: 0.2;
   transition: all 1s ease;
-}
+}*/
 
 /*formatting sign up */
 
@@ -120,7 +120,7 @@ a:focus {
 }
 
 .about p {
-  color: white;
+  color: black;
 	font-size: 4em;
 	font-family: Open Sans Condensed;
 }

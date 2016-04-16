@@ -47,14 +47,6 @@ if(pos1>600) {
 });
 
 
- $("#logo").hover(
-  function(){
-  $("#tsb").addClass("fade");
-}, function(){
-  $("#tsb").removeClass("fade");
-}
- );
-
 
 $(document).ready(function(){
   $('.center').slick({
