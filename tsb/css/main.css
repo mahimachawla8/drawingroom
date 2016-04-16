@@ -92,16 +92,16 @@ a:focus {
   max-height: 300px;
 }
 
+ @media only screen and (max-width : 400px) { 
+    #logo {
+      max-width: 150px;
+      max-height: 150px;
+    }
+  }
+
 #tsb {
   width: 100%;
- /* opacity: 1;*/
- /* transition: all 1s ease;*/
 }
-
-/*#tsb.fade {
-  opacity: 0.2;
-  transition: all 1s ease;
-}*/
 
 /*formatting sign up */
 
@@ -120,7 +120,7 @@ a:focus {
 }
 
 .about p {
-  color: black;
+  color: white;
 	font-size: 4em;
 	font-family: Open Sans Condensed;
 }
