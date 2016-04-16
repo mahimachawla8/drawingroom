@@ -94,8 +94,8 @@ a:focus {
 
  @media only screen and (max-width : 400px) { 
     #logo {
-      max-width: 150px;
-      max-height: 150px;
+      max-width: 200px;
+      max-height: 200px;
     }
   }
 
@@ -190,11 +190,55 @@ input#mc-embedded-subscribe.button {
 
 /*formatting gallery*/
 
+/*images*/
+
 .center img {
-  max-width: 95%;
+  max-width: 98%;
   margin: auto;
 }
 
+div.slick-slide.slick-cloned:focus {
+  outline: 0;
+}
+
+div.slick-slide.slick-cloned.slick-active:focus {
+  outline: 0;
+}
+
+div.slick-slide.slick-current.slick-active.slick-center:focus {
+  outline: 0;
+}
+
+div.slick-slide.slick-active:focus {
+  outline: 0;
+}
+
+div.slick-slide:focus {
+  outline: 0;
+}
+
+/*button*/
+
+.slick-prev:before {
+  content: "<";
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+/*  font-size: 30px;*/
+}
+
+.slick-prev {
+  left: -35px;
+}
+
+.slick-next {
+  right: -35px;
+}
+
+.slick-next:before {
+  content: ">";
+}
 
 /*formatting menu*/
 
