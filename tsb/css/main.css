@@ -113,6 +113,8 @@ input#mce-EMAIL.required.email {
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
+/*  border-bottom: 10px;*/
+
 }
 
 input#mce-EMAIL.required.email:focus {
@@ -150,6 +152,21 @@ input::-webkit-input-placeholder {
   font-family: Open Sans Condensed;
 }*/
 
+div.clear {
+  margin-top: 30px;
+}
+
+input#mc-embedded-subscribe.button {
+  font-size: 1.8em;
+  font-style: bold;
+  width: 140px;
+  height: 50px;
+  color: white;
+  background: black;
+  border: none;
+  font-family: Open Sans Condensed;
+  text-transform: uppercase;
+}
 
 /*formatting about*/
 
