@@ -243,7 +243,7 @@ div.slick-slide:focus {
 /*formatting menu*/
 
 .faded {
-  max-width: 400px;
+  max-width: 450px;
   margin: auto;
 }
 
@@ -251,6 +251,52 @@ div.slick-slide:focus {
   margin: auto;
   max-height: 500px;
 }
+
+div.faded.slick-initialized.slick-slider {
+  height: 440px;
+}
+
+@media only screen and (max-width : 400px) { 
+    div.faded.slick-initialized.slick-slider {
+      height: 300px;
+    }
+
+  .faded img{
+  margin: auto;
+  max-height: 300px;
+    }
+
+  .faded {
+  max-width: 250px;
+  margin: auto;
+    }
+  }
+
+div.slick-list.draggable {
+  height: 100%;
+}
+
+ul.slick-dots {
+  display: none;
+}
+
+li#slick-slide10 {
+  display: none;
+}
+
+li#slick-slide11 {
+  display: none;
+}
+
+li#slick-slide12 {
+  display: none;
+}
+
+div.slick-track {
+  width: 400px;
+  opacity: 0;
+}
+
 
 
 
@@ -280,7 +326,7 @@ div.slick-slide:focus {
 .toptitle {
   font-family: Open Sans Condensed;
   font-size: 4em;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 
@@ -336,5 +382,5 @@ section#four {
 
 footer {
   height: 100px;
-  background: #ecf0f1;
+  background: black;
 }
