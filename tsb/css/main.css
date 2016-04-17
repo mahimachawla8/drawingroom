@@ -82,6 +82,10 @@ a:focus {
     top: 0px;
 }
 
+nav.navbar.navbar-inverse.short {
+z-index: 1;
+}
+
 /*formatting logo */
 
 #logo {
