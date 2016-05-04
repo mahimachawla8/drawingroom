@@ -160,6 +160,11 @@ input::-webkit-input-placeholder {
   margin-top: 50px;
 }
 
+div.mc-field-group {
+  width: 300px;
+  margin: auto;
+}
+
 /*#mailinglist {
   margin-top: 50px;
   font-size: 3em;
@@ -168,6 +173,7 @@ input::-webkit-input-placeholder {
 
 div.clear {
   margin-top: 30px;
+  text-align: center;
 }
 
 input#mc-embedded-subscribe.button {
