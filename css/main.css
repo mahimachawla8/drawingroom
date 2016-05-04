@@ -181,6 +181,10 @@ div.clear {
   text-align: center;
 }
 
+div.clear:focus {
+  outline: 0;
+}
+
 input#mc-embedded-subscribe.button {
   font-size: 1.8em;
   font-style: bold;
