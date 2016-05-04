@@ -156,6 +156,11 @@ input::-webkit-input-placeholder {
 /* font-weight: bold;
 }*/
 
+div#mc_embed_signup {
+  max-width: 300px;
+  margin: auto;
+}
+
 #mc_embed_signup {
   margin-top: 50px;
 }
