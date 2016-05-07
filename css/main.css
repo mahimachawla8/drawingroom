@@ -73,13 +73,10 @@ div.mc-field-group {
   margin: auto;
 }
 
-.mce_inline_error {
+div.mce_inline_error {
   display: none;
 }
 
-.removerequired {
-  display: none;
-}
 
 
 div.clear {
