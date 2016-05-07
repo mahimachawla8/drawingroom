@@ -8,10 +8,7 @@
     min-height: 50px;
     width: 100%;
     top: 0px;
-}
-
-nav.navbar.navbar-inverse.short {
-z-index: 10;
+    z-index: 10;
 }
 
 /*formatting logo */
@@ -290,7 +287,7 @@ section {
 section#one {
 	background: white;
   /*height: 100vh;*/
-  height: 650px;
+  height: 700px;
   z-index: 1;
 }
 
@@ -298,7 +295,7 @@ section#one {
 section#two {
   background-image: url("../img/background.jpg");
    /*height: 100vh;*/
-   height: 650px;
+   height: 700px;
    z-index: 2;
 }
 
