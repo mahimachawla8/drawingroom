@@ -8,7 +8,10 @@
     min-height: 50px;
     width: 100%;
     top: 0px;
-    z-index: 10;
+}
+
+nav.navbar.navbar-inverse {
+  z-index: 10;
 }
 
 /*formatting logo */
