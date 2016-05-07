@@ -89,7 +89,12 @@ $(document).ready(function(){
 });
 
 
-  
+
+$("input").click(function(){
+  if $("body").click(){
+    $("input").removeClass( "mce_inline_error")
+  }
+}
 
 
 });

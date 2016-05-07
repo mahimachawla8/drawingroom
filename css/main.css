@@ -73,7 +73,11 @@ div.mc-field-group {
   margin: auto;
 }
 
-div.mce_inline_error {
+.mce_inline_error {
+  display: none;
+}
+
+.removerequired {
   display: none;
 }
 
