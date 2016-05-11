@@ -77,7 +77,7 @@ div.mc-field-group {
   display: none;
 }*/
 
- div.mce_inline_error {
+ #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
   visibility: hidden;
 }
 
