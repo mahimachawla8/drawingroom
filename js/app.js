@@ -89,9 +89,9 @@ $(document).ready(function(){
 });
 
 $("#mce-EMAIL").click(function(){
-  if ($("#one").click()){
-    // $("#mce-EMAIL").removeClass("mce_inline_error")
-    $(".mce_inline_error").addClass("hiddenreg")
+  if ($("#logo").click()){
+    $("#mce-EMAIL").removeClass("mce_inline_error")
+    // $(".mce_inline_error").addClass("hiddenreg")
   }
 })
 
