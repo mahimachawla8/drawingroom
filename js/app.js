@@ -88,16 +88,22 @@ $(document).ready(function(){
 });
 });
 
-$("#mc-embedded-subscribe").click(function(){
-  $("#mc_embed_signup").addClass("hiddenreg")
+$("#mce-EMAIL").click(function(){
+  if $("#one").click(function(){
+    $(".mce_inline_error").addClass("hiddenreg")
+  })
 })
+
+// $("#mc-embedded-subscribe").click(function(){
+//   $("#mc_embed_signup").addClass("hiddenreg")
+// })
 
 
 // $("input").click(function(){
 //   if $("body").click(){
 //     $("input").removeClass( "mce_inline_error")
 //   }
-// }
+// })
 
 
 });
