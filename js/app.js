@@ -90,7 +90,8 @@ $(document).ready(function(){
 
 $("#mce-EMAIL").click(function(){
   if $("#one").click(function(){
-    $(".mce_inline_error").addClass("hiddenreg")
+    $("#mce-EMAIL").removeClass("mce_inline_error")
+    // $(".mce_inline_error").addClass("hiddenreg")
   })
 })
 
