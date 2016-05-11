@@ -73,9 +73,13 @@ div.mc-field-group {
   margin: auto;
 }
 
-div.mce_inline_error {
+.hidden {
   display: none;
 }
+
+/*div.mce_inline_error {
+  display: none;
+}*/
 
 
 

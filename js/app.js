@@ -88,6 +88,9 @@ $(document).ready(function(){
 });
 });
 
+$(".button").click(function(){
+  $("#mc_embed_signup").addClass("hidden")
+})
 
 
 // $("input").click(function(){
