@@ -88,8 +88,8 @@ $(document).ready(function(){
 });
 });
 
-$(".button").click(function(){
-  $("#mc_embed_signup").addClass("hidden")
+$("#mc-embedded-subscribe").click(function(){
+  $("#mc_embed_signup").addClass("hiddenreg")
 })
 
 
