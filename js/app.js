@@ -88,12 +88,17 @@ $(document).ready(function(){
 });
 });
 
-$("#mce-EMAIL").click(function(){
-  if ($("#logo").click()){
-    $("#mce-EMAIL").removeClass("mce_inline_error")
-    // $(".mce_inline_error").addClass("hiddenreg")
-  }
-})
+
+
+// $("#logo").click
+
+// $("#logo").click(function(){
+//   if ($(".navbar").click()){
+//     $("#mce-EMAIL").removeClass("mce_inline_error");
+//     console.log('hiddenreg is working');
+//     // $(".mce_inline_error").addClass("hiddenreg")
+//   } 
+// })
 
 // $("#mc-embedded-subscribe").click(function(){
 //   $("#mc_embed_signup").addClass("hiddenreg")
