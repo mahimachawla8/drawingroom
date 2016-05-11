@@ -73,12 +73,12 @@ div.mc-field-group {
   margin: auto;
 }
 
-.hiddenreg {
+/*.hiddenreg {
   display: none;
-}
+}*/
 
-#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-  display: none;
+ div.mce_inline_error {
+  visibility: hidden;
 }
 
 
