@@ -91,6 +91,7 @@ $(document).ready(function(){
 $(document).click(function(){
   if($("#mce-EMAIL").hasClass("mce_inline_error")) {
     console.log("it's working");
+    $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").html("");
     $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").html("Please enter a valid email address.");
   } else {
     console.log("it continues to work");
