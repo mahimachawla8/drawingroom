@@ -100,6 +100,15 @@ $(document).ready(function(){
 //   }
 // })
 
+$(document).click(function(){
+  if ($("#mce-EMAIL").hasClass("valid")) {
+    console.log("if");
+    $("#mc_embed_signup #mce-success-response").html("email confo yo.");
+  } else {
+    console.log("else")
+  }
+})
+
 
 
 
