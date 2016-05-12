@@ -79,7 +79,8 @@ div.mc-field-group {
 
  #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
   visibility: hidden;
-  height: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 
