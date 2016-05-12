@@ -91,35 +91,16 @@ $(document).ready(function(){
 $(document).click(function(){
   if($("#mce-EMAIL").hasClass("mce_inline_error")) {
     console.log("it's working");
-    $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").remove();
+    $()
+    // $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").remove();
     // $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").empty();
-    // $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").html("Please enter a valid email address.");
+    $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").html("Please enter a valid email address.");
   } else {
     console.log("it continues to work");
   }
 })
 
 
-// $("#logo").click
-
-// $("#logo").click(function(){
-//   if ($(".navbar").click()){
-//     $("#mce-EMAIL").removeClass("mce_inline_error");
-//     console.log('hiddenreg is working');
-//     // $(".mce_inline_error").addClass("hiddenreg")
-//   } 
-// })
-
-// $("#mc-embedded-subscribe").click(function(){
-//   $("#mc_embed_signup").addClass("hiddenreg")
-// })
-
-
-// $("input").click(function(){
-//   if $("body").click(){
-//     $("input").removeClass( "mce_inline_error")
-//   }
-// })
 
 
 });
