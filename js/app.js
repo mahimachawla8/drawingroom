@@ -103,7 +103,7 @@ $(document).ready(function(){
 $(document).click(function(){
   if ($("#mce-EMAIL").hasClass("valid")) {
     console.log("if");
-    $("#mc_embed_signup #mce-success-response").html("email confo yo.");
+    $("#mc_embed_signup #mce-success-response").empty();
   } else {
     console.log("else")
   }
