@@ -91,7 +91,7 @@ $(document).ready(function(){
 $(document).click(function(){
   if($("#mce-EMAIL").hasClass("mce_inline_error")) {
     console.log("it's working");
-    $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").empty();
+    $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").html("cookie");
   } else {
     console.log("it continues to work");
   }
