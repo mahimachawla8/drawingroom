@@ -38,7 +38,7 @@ nav.navbar.navbar-inverse {
 
 /*formatting sign up */
 
-input#mce-EMAIL.required.email {
+input#mce-EMAIL.email {
   width: 300px;
   height: 50px;
   font-size: 1.5em;
@@ -50,7 +50,7 @@ input#mce-EMAIL.required.email {
 
 }
 
-input#mce-EMAIL.required.email:focus {
+input#mce-EMAIL.email:focus {
   outline: 0;
 }
 
