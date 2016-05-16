@@ -108,7 +108,7 @@ $(document).ready(function(){
 $("input#mc-embedded-subscribe.button").click(function(){
   if ($("#mce-EMAIL").hasClass("valid")) {
     console.log("if");
-    $("#mc_embed_signup #mce-success-response").html("yeaa its working we'll see you soon");
+    $("#mc_embed_signup").remove();
   } else {
     console.log("else");
   }
