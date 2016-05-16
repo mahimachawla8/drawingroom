@@ -109,6 +109,7 @@ $("input#mc-embedded-subscribe.button").click(function(){
   if ($("#mce-EMAIL").hasClass("valid")) {
     console.log("if");
     $("#mc_embed_signup").remove();
+    $("#message").removeClass("confirm").addClass("showconfirm");
   } else {
     console.log("else");
   }
