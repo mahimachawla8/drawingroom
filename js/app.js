@@ -93,7 +93,7 @@ $(document).ready(function(){
 $(document).click(function(){
   if($("#mce-EMAIL").hasClass("mce_inline_error")) {
     console.log("it's working");
-    $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").attr('id', 'removespace');
+    $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").removeClass("mce_inline_error");
     // $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").empty();
     // $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").html("cookiesssss");
     // $(".mc-field-group").html("<input type="email" placeholder="Email" value="" name="EMAIL" class="required email mce_inline_error" id="mce-EMAIL" aria-required="true" aria-invalid="true">");
