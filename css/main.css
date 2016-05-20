@@ -18,6 +18,10 @@ nav.navbar.navbar-inverse {
   border-radius: 0px;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
 /*formatting logo */
 
 
