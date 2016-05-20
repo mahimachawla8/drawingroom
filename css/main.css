@@ -320,7 +320,7 @@ section {
 
 
 section#one {
-	background: white;
+	background-color: rgb(214,214,214);
   /*height: 100vh;*/
   height: 700px;
   z-index: 1;
@@ -330,7 +330,7 @@ section#one {
 section#two {
  /* background-image: url("../img/background.jpg");*/
    /*height: 100vh;*/
-   background-color: rgb(231,231,229);
+   background-color: rgb(109,157,155);
    height: 700px;
    z-index: 2;
 }
