@@ -8,8 +8,8 @@
     min-height: 50px;
     width: 100%;
     top: 0px;
-    background-color: rgb(109,157,155);
-    border-color: rgb(109,157,155);
+    background-color: rgb(254,248,142);
+    border-color: rgb(254,248,142);
     color: black;
 }
 
@@ -22,6 +22,9 @@ nav.navbar.navbar-inverse {
   color: white;
 }
 
+.navbar-inverse .navbar-toggle {
+  border-color: rgb(254,248,142);
+}
 /*formatting logo */
 
 
@@ -133,7 +136,7 @@ input#mc-embedded-subscribe.button {
   font-family: Open Sans Condensed;
   text-transform: uppercase;
   padding-right: 125px;
-  background-color: rgb(109,157,155);
+  background-color: rgb(254,248,142);
 }
 
 /*formatting about*/
