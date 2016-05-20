@@ -134,7 +134,7 @@ input#mc-embedded-subscribe.button {
 }
 
 .about p {
-  color: white;
+  color: black;
 	font-size: 4em;
 	font-family: Open Sans Condensed;
 }
@@ -232,8 +232,8 @@ div.faded.slick-initialized.slick-slider {
 /*@media only screen and (max-width : 700px) { 
     div.faded.slick-initialized.slick-slider {
       height: 300px;
-    }*/
-
+    }
+*/
   .faded img{
   margin: auto;
   max-height: 300px;
@@ -328,8 +328,9 @@ section#one {
 
 
 section#two {
-  background-image: url("../img/background.jpg");
+ /* background-image: url("../img/background.jpg");*/
    /*height: 100vh;*/
+   background-color: rgb(231,231,229);
    height: 700px;
    z-index: 2;
 }
