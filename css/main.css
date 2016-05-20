@@ -19,6 +19,7 @@ nav.navbar.navbar-inverse {
 
 #logo {
   margin-top: 20px;
+  margin-bottom: 150px;
   margin-right: auto;
   margin-left: auto;
   max-width: 300px;
@@ -134,7 +135,7 @@ input#mc-embedded-subscribe.button {
 }
 
 .about p {
-  color: black;
+  color: white;
 	font-size: 4em;
 	font-family: Open Sans Condensed;
 }
@@ -320,8 +321,9 @@ section {
 
 
 section#one {
-	background-color: rgb(214,214,214);
+	/*background-color: rgb(214,214,214);*/
   /*height: 100vh;*/
+  background-color: white;
   height: 700px;
   z-index: 1;
 }
