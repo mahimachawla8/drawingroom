@@ -8,8 +8,8 @@
     min-height: 50px;
     width: 100%;
     top: 0px;
-    background-color: rgb(193,175,150);
-    border-color: rgb(193,175,150);
+    background-color: rgb(204,192,176);
+    border-color: rgb(204,192,176);
     color: black;
 }
 
@@ -23,7 +23,7 @@ nav.navbar.navbar-inverse {
 }
 
 .navbar-inverse .navbar-toggle {
-  border-color: rgb(193,175,150);
+  border-color: rgb(204,192,176);
 }
 /*formatting logo */
 
@@ -136,7 +136,7 @@ input#mc-embedded-subscribe.button {
   font-family: Open Sans Condensed;
   text-transform: uppercase;
   padding-right: 125px;
-  background-color: rgb(254,248,142);
+  background-color: rgb(244,232,215);
 }
 
 /*formatting about*/
@@ -344,7 +344,7 @@ section#one {
 section#two {
  /* background-image: url("../img/background.jpg");*/
    /*height: 100vh;*/
-   background: #ecf0f1;
+   background: rgb(244,232,215);
    height: 700px;
    z-index: 2;
 }
@@ -357,7 +357,7 @@ height: 800px;
 }
 
 section#four {
-   background: #ecf0f1;
+   background: rgb(244,232,215);
     /*height: 100vh;*/
     height: 800px;
     z-index: 4;
@@ -374,5 +374,5 @@ section#four {
 
 footer {
   height: 70px;
-  background-color: rgb(193,175,150);
+  background-color: rgb(204,192,176);
 }
