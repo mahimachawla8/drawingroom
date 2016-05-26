@@ -233,7 +233,7 @@ div.slick-slide:focus {
 }
 
 div.faded.slick-initialized.slick-slider {
-  height: 440px;
+  height: 500px;
 }
 
 /*
@@ -244,7 +244,7 @@ div.faded.slick-initialized.slick-slider {
 
 @media only screen and (max-width : 400px) { 
     div.faded.slick-initialized.slick-slider {
-      height: 400px;
+      height: 500px;
     }
 
   .faded img{
