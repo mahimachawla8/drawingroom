@@ -292,6 +292,10 @@ div.slick-track {
   opacity: 0;
 }
 
+.slick-dots li {
+  display: none;
+}
+
 
 
 
@@ -382,6 +386,6 @@ section#four {
 /*section.active {}*/
 
 footer {
-  height: 70px;
+  height: 50px;
   background-color: rgb(204,192,176);
 }
