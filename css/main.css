@@ -30,6 +30,10 @@ nav.navbar.navbar-inverse {
   background-color: rgb(204,192,176);
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: rgb(225,225,225);
+}
+
 /*formatting logo */
 
 
