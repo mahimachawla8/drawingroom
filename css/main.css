@@ -25,6 +25,11 @@ nav.navbar.navbar-inverse {
 .navbar-inverse .navbar-toggle {
   border-color: rgb(204,192,176);
 }
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: rgb(204,192,176);
+}
+
 /*formatting logo */
 
 
