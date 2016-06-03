@@ -188,6 +188,7 @@ input#mc-embedded-subscribe.button {
 
 div.center.slick-initialized.slick-slider {
   margin-top: 165px;
+  height: 220px;
 }
 
 div.slick-slide.slick-cloned:focus {
@@ -244,7 +245,7 @@ div.slick-slide:focus {
 div.faded.slick-initialized.slick-slider {
   /*height: 500px;*/
   max-width: 414px;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .faded img {
