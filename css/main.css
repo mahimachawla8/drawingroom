@@ -145,7 +145,7 @@ input#mc-embedded-subscribe.button {
   font-family: Open Sans Condensed;
   text-transform: uppercase;
   padding-right: 125px;
-  background-color: rgb(172,176,178);
+  background-color: rgb(220,220,220);
 }
 
 /*formatting about*/
@@ -357,7 +357,7 @@ section#one {
 section#two {
  /* background-image: url("../img/background.jpg");*/
    /*height: 100vh;*/
-   background: rgb(225,225,225);
+   background: rgb(220,220,220);
    height: 700px;
    z-index: 2;
 }
@@ -370,7 +370,7 @@ height: 800px;
 }
 
 section#four {
-   background: rgb(225,225,225);
+   background: rgb(220,220,220);
     /*height: 100vh;*/
     height: 800px;
     z-index: 4;
