@@ -240,10 +240,6 @@ div.slick-slide:focus {
   margin: auto;
 }
 
-.faded img{
-  margin: auto;
-  max-height: 500px;
-}
 
 div.faded.slick-initialized.slick-slider {
   /*height: 500px;*/
@@ -251,7 +247,7 @@ div.faded.slick-initialized.slick-slider {
   margin-top: 80px;
 }
 
-html body div #four div div div div img {
+.faded img {
   height: 100%;
 }
 
