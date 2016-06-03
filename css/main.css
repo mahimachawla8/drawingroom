@@ -186,6 +186,10 @@ input#mc-embedded-subscribe.button {
   margin: auto;
 }
 
+div.center.slick-initialized.slick-slider {
+  margin-top: 165px;
+}
+
 div.slick-slide.slick-cloned:focus {
   outline: 0;
 }
@@ -243,6 +247,7 @@ div.slick-slide:focus {
 
 div.faded.slick-initialized.slick-slider {
   height: 500px;
+  margin-top: 80px;
 }
 
 /*
@@ -300,7 +305,7 @@ div.slick-track {
 
 
 #social-media {
-	padding-top: 20px;
+	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -365,14 +370,14 @@ section#two {
 section#three {
   background: white;
 /*   height: 100vh;*/
-height: 800px;
+height: 760px;
    z-index: 3;
 }
 
 section#four {
    background: rgb(220,220,220);
     /*height: 100vh;*/
-    height: 800px;
+    height: 760px;
     z-index: 4;
 }
 
