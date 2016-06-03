@@ -152,7 +152,7 @@ input#mc-embedded-subscribe.button {
 
 .about{
 	text-align: center;
-  margin-top: 170px;
+  margin-top: 240px;
 }
 
 .about p {
@@ -246,8 +246,13 @@ div.slick-slide:focus {
 }
 
 div.faded.slick-initialized.slick-slider {
-  height: 500px;
+  /*height: 500px;*/
+  max-width: 414px;
   margin-top: 80px;
+}
+
+html body div #four div div div div img {
+  height: 100%;
 }
 
 /*
@@ -273,7 +278,7 @@ div.faded.slick-initialized.slick-slider {
   }
 
 div.slick-list.draggable {
-  height: 100%;
+  height: 580px;
 }
 
 ul.slick-dots {
@@ -293,7 +298,8 @@ li#slick-slide12 {
 }
 
 div.slick-track {
-  width: 400px;
+  width: 414px;
+  height: 580px;
   opacity: 0;
 }
 
@@ -363,7 +369,7 @@ section#two {
  /* background-image: url("../img/background.jpg");*/
    /*height: 100vh;*/
    background: rgb(220,220,220);
-   height: 700px;
+   height: 760px;
    z-index: 2;
 }
 
