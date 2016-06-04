@@ -215,7 +215,7 @@ input#mc-embedded-subscribe.button {
     @media only screen and (max-width : 401px) and (min-width: 0px) { 
     .about p {
       font-size: 2.8em;
-      margin-top: 80px;
+      margin-top: 0px;
     }
   }
 
@@ -415,6 +415,12 @@ section#two {
    height: 690px;
    z-index: 2;
 }
+
+@media only screen and (max-width : 400px) and (min-width: 0px) { 
+    section#two {
+      height: 500px;
+    }
+  }
 
 section#three {
   background: white;
