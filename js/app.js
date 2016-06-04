@@ -115,6 +115,13 @@ $("input#mc-embedded-subscribe.button").click(function(){
   }
 })
 
+// collapse nav bar automatically
+
+// $("#myNavbar").click(function(){
+//   console.log("checking collapse function");
+//   // $("#autom").addClass("collapsed");
+// })
+
 
 // $(document).click(function(){
 //   if ($("#mce-EMAIL").hasClass("valid")) {
@@ -124,8 +131,6 @@ $("input#mc-embedded-subscribe.button").click(function(){
 //     console.log("else")
 //   }
 // })
-
-
 
 
 });
