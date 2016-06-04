@@ -215,7 +215,7 @@ input#mc-embedded-subscribe.button {
     @media only screen and (max-width : 401px) and (min-width: 0px) { 
     .about p {
       font-size: 2.8em;
-      margin-top: 0px;
+      margin-top: 45px;
     }
   }
 
@@ -234,6 +234,12 @@ div.center.slick-initialized.slick-slider {
   margin-top: 165px;
   height: 220px;
 }
+
+@media only screen and (max-width : 400px) and (min-width: 0px) { 
+    div.center.slick-initialized.slick-slider {
+      margin-top: 130px; 
+    }
+  }
 
 div.slick-slide.slick-cloned:focus {
   outline: 0;
@@ -304,10 +310,29 @@ div.faded.slick-initialized.slick-slider {
       height: 400px;
     }*/
 
-/*@media only screen and (max-width : 400px) { 
-    div.faded.slick-initialized.slick-slider {
-      height: 300px;
-    }*/
+@media only screen and (max-width : 525px) { 
+    
+div.faded.slick-initialized.slick-slider {
+  height: 400px;
+  max-width: 284px;
+  margin-top: 40px;
+    }
+
+/*div.slick-list.draggable {
+  width: 284px;
+}*/
+
+div.slick-track {
+  width: 284px;
+  height: 400px;
+  opacity: 1;
+  }
+
+  div.slick-slide.slick-current.slick-active {
+    height: 400px;
+  }
+
+}
 
  /* .faded img{
   margin: auto;
@@ -351,7 +376,7 @@ div.slick-track {
 }
 
 
-
+/* social media */
 
 #social-media {
 	padding-top: 10px;
@@ -418,7 +443,7 @@ section#two {
 
 @media only screen and (max-width : 400px) and (min-width: 0px) { 
     section#two {
-      height: 500px;
+      height: 600px;
     }
   }
 
@@ -429,12 +454,24 @@ height: 760px;
    z-index: 3;
 }
 
+@media only screen and (max-width : 400px) and (min-width: 0px) { 
+    section#three {
+      height: 600px;
+    }
+  }
+
 section#four {
    background: rgb(220,220,220);
     /*height: 100vh;*/
     height: 760px;
     z-index: 4;
 }
+
+@media only screen and (max-width : 525px) and (min-width: 0px) { 
+    section#four {
+      height: 600px;
+    }
+  }
 
 
 
