@@ -159,7 +159,7 @@ input#mc-embedded-subscribe.button {
 .about p {
   color: white;
   font-size: 4em;
-   margin-top: 160px;
+   margin-top: 180px;
 	font-family: Open Sans Condensed;
 }
 
@@ -179,23 +179,31 @@ input#mc-embedded-subscribe.button {
  @media only screen and (max-width : 821px) and (min-width: 658px) { 
     .about p {
       font-size: 3.4em;
-      margin-top: 145px;
+      margin-top: 140px;
     }
   }
 
    @media only screen and (max-width : 657px) and (min-width: 592px) { 
     .about p {
       font-size: 3em;
-      margin-top: 155px;
+      margin-top: 145px;
     }
   }
 
-     @media only screen and (max-width : 591px) and (min-width: 464px) { 
+     @media only screen and (max-width : 591px) and (min-width: 490px) { 
+    .about p {
+      font-size: 3em;
+      margin-top: 125px;
+    }
+  }
+
+     @media only screen and (max-width : 489px) and (min-width: 464px) { 
     .about p {
       font-size: 3em;
       margin-top: 100px;
     }
   }
+
 
     @media only screen and (max-width : 463px) and (min-width: 402px) { 
     .about p {
