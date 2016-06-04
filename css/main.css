@@ -46,10 +46,11 @@ nav.navbar.navbar-inverse {
   max-height: 300px;
 }
 
- @media only screen and (max-width : 400px) { 
+ @media only screen and (max-width : 425px) and (min-width: 0px) { 
     #logo {
       max-width: 250px;
       max-height: 250px;
+      margin-top: 30px;
     }
   }
 
@@ -313,8 +314,8 @@ div.faded.slick-initialized.slick-slider {
 @media only screen and (max-width : 525px) { 
     
 div.faded.slick-initialized.slick-slider {
-  height: 400px;
-  max-width: 284px;
+  height: 350px;
+  max-width: 251px;
   margin-top: 40px;
     }
 
@@ -324,12 +325,12 @@ div.faded.slick-initialized.slick-slider {
 
 div.slick-track {
   width: 284px;
-  height: 400px;
+  height: 350px;
   opacity: 1;
   }
 
   div.slick-slide.slick-current.slick-active {
-    height: 400px;
+    height: 350px;
   }
 
 }
@@ -431,6 +432,12 @@ section#one {
   height: 700px;
   z-index: 1;
 }
+
+@media only screen and (max-width : 400px) and (min-width: 0px) { 
+    section#one {
+      height: 600px;
+    }
+  }
 
 
 section#two {
