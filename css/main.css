@@ -50,7 +50,7 @@ nav.navbar.navbar-inverse {
     #logo {
       max-width: 250px;
       max-height: 250px;
-      margin-top: 30px;
+      margin-top: 10px;
     }
   }
 
@@ -311,29 +311,6 @@ div.faded.slick-initialized.slick-slider {
       height: 400px;
     }*/
 
-@media only screen and (max-width : 525px) { 
-    
-div.faded.slick-initialized.slick-slider {
-  height: 350px;
-  max-width: 251px;
-  margin-top: 40px;
-    }
-
-/*div.slick-list.draggable {
-  width: 284px;
-}*/
-
-div.slick-track {
-  width: 284px;
-  height: 350px;
-  opacity: 1;
-  }
-
-  div.slick-slide.slick-current.slick-active {
-    height: 350px;
-  }
-
-}
 
  /* .faded img{
   margin: auto;
@@ -370,6 +347,35 @@ div.slick-track {
   width: 414px;
   height: 580px;
   opacity: 0;
+}
+
+@media only screen and (max-width : 525px) { 
+    
+div.faded.slick-initialized.slick-slider {
+  height: 350px;
+  max-width: 251px;
+  margin-top: 40px;
+    }
+
+/*  .faded img {
+  height: 100%;
+}*/
+
+div.slick-list.draggable {
+/*  width: 284px;*/
+  height: 350px;
+}
+
+div.slick-track {
+  width: 251px;
+  height: 350px;
+  opacity: 0;
+  }
+
+  div.slick-slide.slick-current.slick-active {
+    height: 350px;
+  }
+
 }
 
 .slick-dots li {
