@@ -93,6 +93,7 @@ $(document).ready(function(){
 $(document).click(function(){
   if($("#mce-EMAIL").hasClass("mce_inline_error")) {
     $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").remove();
+    $("#Cookiemon").removeClass("confim").addClass("showconfirm");
     console.log("it's working");
     // $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").empty();
     // $("#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error").html("cookiesssss");
