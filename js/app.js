@@ -117,10 +117,13 @@ $("input#mc-embedded-subscribe.button").click(function(){
 
 // collapse nav bar automatically
 
-// $("#myNavbar").click(function(){
-//   console.log("checking collapse function");
-//   // $("#autom").addClass("collapsed");
-// })
+$("#myNavbar").click(function(){
+  if($("#myNavbar").hasClass("in")) {
+      console.log("it's open");
+  } else  {
+    console.log("it's collapsed");
+  }
+})
 
 
 // $(document).click(function(){
