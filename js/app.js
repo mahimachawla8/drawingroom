@@ -117,11 +117,11 @@ $("input#mc-embedded-subscribe.button").click(function(){
 
 // collapse nav bar automatically
 
-$("#myNavbar").click(function(){
-  if($("#myNavbar").hasClass("in")) {
-      console.log("it's open");
+$("#autom").click(function(){
+  if($("#autom").hasClass("collapsed")) {
+      console.log("it's closed");
   } else  {
-    console.log("it's collapsed");
+    console.log("it's open");
   }
 })
 
