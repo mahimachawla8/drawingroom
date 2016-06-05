@@ -250,6 +250,8 @@ div.center.slick-initialized.slick-slider {
     }
   }
 
+  479 401
+
     @media only screen and (max-width : 899px) and (min-width: 700px) { 
     div.center.slick-initialized.slick-slider {
       height: 600px;
@@ -271,10 +273,17 @@ div.center.slick-initialized.slick-slider {
     }
   }
 
-    @media only screen and (max-width : 499px) and (min-width: 401px) { 
+    @media only screen and (max-width : 499px) and (min-width: 480px) { 
     div.center.slick-initialized.slick-slider {
       height: 600px;
       margin-top: 140px;
+    }
+  }
+
+     @media only screen and (max-width : 479px) and (min-width: 401px) { 
+    div.center.slick-initialized.slick-slider {
+      height: 600px;
+      margin-top: 65px;
     }
   }
 
