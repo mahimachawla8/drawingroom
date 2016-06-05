@@ -236,11 +236,55 @@ div.center.slick-initialized.slick-slider {
   height: 220px;
 }
 
+@media only screen and (max-width : 1200px) and (min-width: 1000px) { 
+    div.center.slick-initialized.slick-slider {
+      height: 600px;
+      margin-top: 100px;
+    }
+  }
+
+  @media only screen and (max-width : 999px) and (min-width: 900px) { 
+    div.center.slick-initialized.slick-slider {
+      height: 600px;
+      margin-top: 120px;
+    }
+  }
+
+    @media only screen and (max-width : 899px) and (min-width: 700px) { 
+    div.center.slick-initialized.slick-slider {
+      height: 600px;
+      margin-top: 140px;
+    }
+  }
+
+    @media only screen and (max-width : 699px) and (min-width: 600px) { 
+    div.center.slick-initialized.slick-slider {
+      height: 600px;
+      margin-top: 100px;
+    }
+  }
+
+    @media only screen and (max-width : 599px) and (min-width: 500px) { 
+    div.center.slick-initialized.slick-slider {
+      height: 600px;
+      margin-top: 125px;
+    }
+  }
+
+    @media only screen and (max-width : 499px) and (min-width: 401px) { 
+    div.center.slick-initialized.slick-slider {
+      height: 600px;
+      margin-top: 140px;
+    }
+  }
+
 @media only screen and (max-width : 400px) and (min-width: 0px) { 
     div.center.slick-initialized.slick-slider {
       margin-top: 130px; 
     }
   }
+
+
 
 div.slick-slide.slick-cloned:focus {
   outline: 0;
@@ -269,8 +313,9 @@ div.slick-slide:focus {
 }
 
 .slick-prev:before, .slick-next:before {
-  color: black;
-/*  font-size: 30px;*/
+  color: white;
+  font-size: 40px;
+  font-style: bold;
 }
 
 .slick-prev {
@@ -285,6 +330,24 @@ div.slick-slide:focus {
   content: ">";
 }
 
+button.slick-prev.slick-arrow {
+  height: 600px;
+  width: 120px;
+  padding-right: 100px;
+  z-index: 9;
+}
+
+button.slick-next.slick-arrow {
+  height: 600px;
+  width: 120px;
+  padding-left: 100px;
+  z-index: 9;
+}
+
+
+
+
+
 /*formatting menu*/
 
 .faded {
@@ -298,6 +361,9 @@ div.faded.slick-initialized.slick-slider {
   max-width: 414px;
   margin-top: 40px;
 }
+
+
+
 
 .faded img {
   height: 100%;
@@ -466,6 +532,20 @@ section#three {
 height: 760px;
    z-index: 3;
 }
+
+@media only screen and (max-width : 1200px) and (min-width: 700px) { 
+    section#three {
+      height: 600px;
+    }
+  }
+
+  @media only screen and (max-width : 699px) and (min-width: 401px) { 
+    section#three {
+      height: 500px;
+    }
+  }
+
+
 
 @media only screen and (max-width : 400px) and (min-width: 0px) { 
     section#three {
